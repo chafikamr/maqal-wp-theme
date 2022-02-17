@@ -1,0 +1,41 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+  
+}
+
+
+body{
+    min-height: 1000px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background: rgb(250, 250, 250);
+    padding-bottom: 100px;
+}
+
+
+/* start post stylings */
+.post-card{
+  padding: 20px;
+  margin-bottom: 30px;
+  
+}
+.post-card .post-short-description , .post-card .post-date {
+  margin: 10px 0;
+  
+}
+
+/* Start Footer */
+#footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
